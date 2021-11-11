@@ -45,7 +45,7 @@ import { FirebaseMockService } from './@core/database/firebase-mock';
     }),
     CoreModule.forRoot(),
     ThemeModule.forRoot(),
-    AngularFireModule.initializeApp(environment.firebase, 'ISILAB'),
+    AngularFireModule.initializeApp(environment.firebase, 'LAB05_ISI'),
     AngularFireDatabaseModule
 
   ],
